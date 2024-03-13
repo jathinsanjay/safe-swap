@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+.inp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    margin: auto;
+    margin-top: 15px;
+    margin-left: 140px;
+}
+
+#label{
+    width: 60px;
+}
+
+#label2{
+    width: 140px;
+}
+
+.button-div{
+    
+    width: 100%;
+    margin: auto 0;   
+    margin-right: 320px;
+}
+
+#purchase{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.detail{
+    color: #df9c5d;
+}
+
+#purchases{
+    background-color: #222222;
+    height: 300px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 25px;
+    font-size: 20px;
+    width: 50%;
+    margin: auto;
+    box-shadow: 2px #be6003;
+    font-family: "ubuntu", sans-serif;
+    opacity: 0.9;
+}
+
+#id {
+    /* position: relative;
+    bottom: 50px; */
+    background: rgba(255,255,255,0.4);
+    border: none;
+    /* display: block; */
+    font-size: 1.4rem;
+    font-weight: bold;
+    outline: none;
+    width: 300px;
+    height: 40px;
+    margin: 0 auto;
+    color: #333;
+    /* -webkit-box-shadow: 0 2px 10px 1px rgba(0,0,0,0.5);
+    box-shadow: 0 2px 10px 1px rgba(0,0,0,0.5);
+  }
+  ::-webkit-input-placeholder { color: #666;} 
+  :-moz-placeholder { color: #666; }
+  ::-moz-placeholder { color: #666; }
+  :-ms-input-placeholder { color: #666;  */
+}
+
+.cont{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    font-family: "Ubuntu", sans-serif;
+    
+}
+
+.inp{
+    display: flex;
+    margin-bottom: 15px;
+    justify-content: center;
+}
+
+#send{
+    text-align: center;
+    color: white;
+    background-color: #f07900;
+    border-radius: 5px;
+    width: 130px;
+    height: 45px;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 10px;
+   
+    
+}
+
+.detail-container2{
+    background-image: url('https://t4.ftcdn.net/jpg/04/23/18/83/360_F_423188362_B6iLBKbMypBLPHT5VzOF9KtfQjpaUvLV.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.btncont{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

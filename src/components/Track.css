@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+#side {
+    display: flex;
+    
+}
+
+.custom-table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 14px;
+
+  }
+  
+  .custom-table th,
+  .custom-table td {
+    padding: 18px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    border-width: 2px;
+
+  }
+  
+  .custom-table th {
+    background-color: #222222;
+  }
+  
+  .custom-table tbody tr:nth-child(even) {
+    background-color: #222222;
+  }
+  
+  .custom-table tbody tr:hover {
+    background-color: #262626;
+  }
+  

@@ -1,0 +1,100 @@
+#blockid {
+    background: rgba(255,255,255,0.4);
+    border: none;
+    /* display: block; */
+    font-size: 1.6rem;
+    
+    outline: none;
+    width: 400px;
+    height: 45px;
+    margin: 0 auto;
+    padding: 10px;
+    color: #333;
+    -webkit-box-shadow: 0 2px 10px 1px rgba(0,0,0,0.5);
+    box-shadow: 0 2px 10px 1px rgba(0,0,0,0.5);
+  }
+  ::-webkit-input-placeholder { color: #666;} 
+  :-moz-placeholder { color: #666; }
+  ::-moz-placeholder { color: #666; }
+  :-ms-input-placeholder { color: #666;
+}
+
+.status-bg{
+    background-image: url('https://uploads.tradestation.com/uploads/sites/2/ethereum_AdobeStock_299458210-e1624970656147.jpeg');
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding-right: 150px;
+}
+
+#blockbtn {
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+    font-weight: 800;
+    
+}
+#btn{
+    font-weight: 700;
+    font-size: 14px;
+
+}
+
+#btn2{
+    font-weight: 700;
+    font-size: 17px;
+    font-family: "ubuntu", sans-serif;
+    width: 150px;
+    height: 45px;
+    
+}
+
+/* #blk1 {
+    width: 100px;
+    height: 40px;
+    border-radius: 10%;
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    padding: auto;
+    margin-left: 150px;
+    margin-top: 30px;
+} */
+
+
+
+.blk1,
+  .blk2 {
+    background-color: #f07900;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    margin: 0 1.5rem;
+    cursor: pointer;
+    width: 130px;
+    height: 40px;
+    font-weight: 00;
+    font-size: 14px;
+  }
+  
+  .blk2 {
+    background-color: white;
+    color: #f07900;
+    border: 2px solid #f07900;
+  }
+
+  .title{
+    color:#f07900;
+    font-weight: 700;
+    font-size: 30px;
+    margin-right: 38px;
+    font-family: "ubuntu", sans-serif;
+  }

@@ -1,0 +1,238 @@
+/* label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input,label {
+    margin: 0.4rem 0;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+#topdiv {
+    padding-top: 100px;
+    
+}
+
+#detaildiv {
+    
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    align-items: center;
+    color: white;
+    
+    font-family: "Ubuntu", sans-serif;
+    
+
+}
+
+.detail-parent{
+    width: 100vw;
+    height: 100vh;
+}
+
+.detail-container{
+    background-image: url('https://uploads.tradestation.com/uploads/sites/2/ethereum_AdobeStock_299458210-e1624970656147.jpeg');
+    background-size: cover;
+    width: 100%;
+
+    
+}
+
+#purchases{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 35px;
+    margin-top: 30px;
+}
+
+#detaildiv img {
+   width: 60%;
+    height: 190px;
+    margin: 12px;
+    border-bottom: none;
+   
+}
+
+#flexdiv {
+    display: flex;
+    justify-content: center;
+    width: 550px;
+    flex-wrap: wrap;
+    /* background: rgba(255, 245, 245, 0.789); */
+    background-color: #222222;
+    color: #fff;
+    font-size: 1.6rem;
+    text-align: center;
+    font-weight: bold;
+    /* padding-left: 20px; */
+    border: 0 solid rgb(130, 130, 130);
+    margin-left: 30px;
+    margin-bottom: 40px;
+    border-radius: 12px;
+    padding: 40px;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.spantext{
+    color: #c9c9c9
+}
+
+#purchases2{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#flexdiv p {
+    margin-left: 10px;
+    margin-top: 5px;
+    color: #df9c5d;
+}
+
+#more{
+    text-align: center;
+}
+
+#anchor {
+    color: #df9c5d;
+    
+}
+
+.productimage{
+    width: 500px;
+}
+
+#anchor:hover {
+    color: #397bff;
+    opacity: 60%;
+    background: transparent;
+}
+
+#topdiv input {
+    width: 600px;
+    height: 50px;
+    background-color: rgba(255, 245, 245, 0.789);
+    font-size: 1.5rem;
+    margin-right: 5px;
+}
+
+.sell-button {
+    background-color: #f07900;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    margin-left: 0px;
+    cursor: pointer;
+    width: 130px;
+    height: 40px;
+    font-weight: 600;
+    font-size: 12px;
+  }
+  
+  .buy-button {
+    background-color: white !important;
+    color: #f07900 !important;
+    border: 2px solid #f07900 !important;
+    padding: 0.5rem 1rem !important;
+   border-radius: 5px !important;
+    cursor: pointer !important;
+    width: 130px !important;
+    height: 40px !important;
+    font-weight: 600 !important;
+    font-size: 12px !important;
+    margin-left: 25px !important;
+    margin-right: 0px !important;
+  }
+
+.buttonscont {
+    display: flex;
+    align-items: center;
+}
+
+.people{
+    display: flex;
+    justify-content: space-between;
+    max-width: 500px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.page a {
+    color: white;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 500px;
+  }
+
+.page a.active {
+    background-color: #e985ff;
+    color: white;
+  }
+
+#flex{
+    width: 350px;
+    height: 250px;
+    word-wrap: break-word;
+    background-color: #ffffff;
+    color: black;
+    opacity: 50%;
+    font-weight: bolder;
+    font-size: 1.7rem;
+    padding-right: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+#more {
+    max-width:500px;
+    word-wrap: break-word;
+    text-align: center;
+   
+}
+
+#download{
+    position: relative;
+    left: 50px;
+}
+  
+.page a:hover:not(.active) {background-color: #ddd;}
+
+@media screen and (max-width: 576px) {
+    /* #topdiv input{
+        width: 280px;
+        height: 40px;
+        position: relative;
+        top: 140px;
+        left: 10px;
+    }
+    #topdiv button {
+        width: 70px;
+        height: 30px;
+        position: relative;
+        top: 190px;
+        right: 170px;
+    } */
+    #detaildiv{
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        right: 100px;
+        top: 170px;
+        /* background-image: linear-gradient(150deg, #c33764, #1d2671);; */
+    }
+    .page {
+        position: relative;
+        top: 130px;
+        
+    }
+    .page a{
+        color: black;
+    }
+}
